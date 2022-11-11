@@ -1,0 +1,10 @@
+###
+Send Request
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Fredd",
+    "age": 23,
+    "email": "Fredd@gmail.com"
+}
